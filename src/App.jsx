@@ -1,6 +1,6 @@
 import "./App.css";
 import React, { createContext } from "react";
-import ComponentOne from "./component/componentOne";
+import ComponentOne from "./useContextComponent/componentOne";
 export const userContext = createContext();
 export const greetContext = createContext();
 export default function App() {
